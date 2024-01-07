@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-function Order() {
+function Orders() {
   return (
     <View>
       <Text>ss</Text>
@@ -9,4 +9,4 @@ function Order() {
   );
 }
 
-export default Order;
+export default Orders;
