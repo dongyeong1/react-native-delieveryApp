@@ -12,17 +12,6 @@ import {Provider, useSelector} from 'react-redux';
 import store from './src/store';
 import {RootState} from './src/store/reducer';
 import AppInner from './AppIner';
-export type LoggedInParamList = {
-  Orders: undefined;
-  Settings: undefined;
-  Delivery: undefined;
-  Complete: {orderId: string};
-};
-
-export type RootStackParamList = {
-  SignIn: undefined;
-  SignUp: undefined;
-};
 
 function App() {
   // const [isLoggedIn, setLoggedIn] = useState(false);
